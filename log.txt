@@ -1,0 +1,23 @@
+F:\vuepress-theme-yubisaki-debug>npx vuepress dev docs
+wait Extracting site metadata...
+tip Apply theme vuepress-theme-yubisaki
+warning Cannot read property 'Page' of undefined
+TypeError: Cannot read property 'multiple' of undefined
+    at PluginAPI.use (F:\vuepress-theme-yubisaki-debug\node_modules\_@vuepress_core@1.0.0-alpha.40@@vuepress\core\lib\plugin-api\index.js:94:16)
+    at pluginsConfig.forEach (F:\vuepress-theme-yubisaki-debug\node_modules\_@vuepress_core@1.0.0-alpha.40@@vuepress\core\lib\plugin-api\index.js:139:12)
+    at Array.forEach (<anonymous>)
+    at PluginAPI.useByPluginsConfig (F:\vuepress-theme-yubisaki-debug\node_modules\_@vuepress_core@1.0.0-alpha.40@@vuepress\core\lib\plugin-api\index.js:138:19)
+    at PluginAPI.use (F:\vuepress-theme-yubisaki-debug\node_modules\_@vuepress_core@1.0.0-alpha.40@@vuepress\core\lib\plugin-api\index.js:105:12)
+    at AppContext.applyUserPlugins (F:\vuepress-theme-yubisaki-debug\node_modules\_@vuepress_core@1.0.0-alpha.40@@vuepress\core\lib\prepare\AppContext.js:174:8)
+    at AppContext.process (F:\vuepress-theme-yubisaki-debug\node_modules\_@vuepress_core@1.0.0-alpha.40@@vuepress\core\lib\prepare\AppContext.js:102:10)
+    at prepare (F:\vuepress-theme-yubisaki-debug\node_modules\_@vuepress_core@1.0.0-alpha.40@@vuepress\core\lib\prepare\index.js:17:20)
+    at prepareServer (F:\vuepress-theme-yubisaki-debug\node_modules\_@vuepress_core@1.0.0-alpha.40@@vuepress\core\lib\dev.js:28:32)
+    at module.exports (F:\vuepress-theme-yubisaki-debug\node_modules\_@vuepress_core@1.0.0-alpha.40@@vuepress\core\lib\dev.js:4:40)
+    at args (F:\vuepress-theme-yubisaki-debug\node_modules\_vuepress@1.0.0-alpha.40@vuepress\lib\util.js:35:12)
+    at CAC.cli.command.option.option.option.option.option.option.option.option.action (F:\vuepress-theme-yubisaki-debug\node_modules\_vuepress@1.0.0-alpha.40@vuepress\lib\registerCoreCommands.js:34:23)
+    at CAC.runMatchedCommand (F:\vuepress-theme-yubisaki-debug\node_modules\_cac@6.4.2@cac\dist\index.js:787:38)
+    at CAC.parse (F:\vuepress-theme-yubisaki-debug\node_modules\_cac@6.4.2@cac\dist\index.js:707:18)
+    at CLI (F:\vuepress-theme-yubisaki-debug\node_modules\_vuepress@1.0.0-alpha.40@vuepress\lib\util.js:23:7)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+F:\vuepress-theme-yubisaki-debug>
